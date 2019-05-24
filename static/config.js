@@ -1,8 +1,8 @@
-const janssenApi = 'http://janssen.vinfol.com/adapter/janssen';
-const ruyiApi = 'http://janssen.vinfol.com/ruyi-api/v1';
+const janssenApi = 'http://janssen.vinfo.com/adapter/janssen';
+const ruyiApi = 'http://janssen.vinfo.com/ruyi-api/v1';
 const ruyiOriApi = 'http://api.ruyi.ai//v1';
 
-const dominName = 'http://janssen.vinfol.com';
+const dominName = 'http://janssen.vinfo.com';
 
 const API = {
     recommendByUserLabel: janssenApi + '/v2/recommendByUserLabel',
@@ -11,7 +11,7 @@ const API = {
     recommendByQuery: janssenApi + '/v2/recommendByQuery',
 }
 let userData = {
-    app_key: '19f63523-1ff7-45df-9830-2a62873c8af3',
+  app_key: '19f63523-1ff7-45df-9830-2a62873c8af3',
     user_id:1,
     wwid: ''
 }
